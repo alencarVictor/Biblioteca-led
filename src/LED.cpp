@@ -47,7 +47,7 @@ void Led::piscar(float frequencia, uint16_t repeticoes)
     tempoEspera = (1000.0f / (2.0f * frequencia));
     tempoAnteriorPiscar = millis();
     estado = HIGH;
-    this->repeticoes = repeticoes;
+    this->repeticoes = repeticoes * 2;
 }
 
 void Led::funcaoPiscar()
@@ -92,10 +92,11 @@ void Led::alternar()
 void Led::update()
 
 {
-    if (desligarPorTempo) funcaoDesligamento();
+    if (desligarPorTempo)
+        funcaoDesligamento();
 
-    if (estadoPiscar) funcaoPiscar();
-
+    if (estadoPiscar)
+        funcaoPiscar();
 
     digitalWrite(pino, estado);
 }
@@ -110,10 +111,9 @@ void Led::reset()
 
 void Led::funcaoDesligamento()
 {
- if (millis() >= desligarNoMomento)
-        {
-            estado = LOW;
-            desligarPorTempo = false;
-        }
-    
+    if (millis() >= desligarNoMomento)
+    {
+        estado = LOW;
+        desligarPorTempo = false;
+    }
 }
