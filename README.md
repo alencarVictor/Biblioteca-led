@@ -19,4 +19,27 @@ Com esta biblioteca, você pode controlar um LED utilizando métodos intuitivos 
 ## 📦 Instalação
 
 1. Baixe ou clone este repositório  
-2. Copie a pasta da biblioteca para:
+2. Copie a pasta da biblioteca para: Documentos/Arduino/libraries
+3. Reinicie a IDE do Arduino  
+
+---
+
+## 🔧 Como usar
+
+### Exemplo básico
+
+```cpp
+#include <Arduino.h>
+#include <LED.h>
+
+Led ledA(35);
+
+void setup()
+{
+ledA.ligar();
+}
+
+void loop()
+{
+ledA.update();
+}
