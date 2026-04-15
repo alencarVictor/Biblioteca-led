@@ -1,22 +1,22 @@
-# 💡 LED Library
+#  Biblioteca LED
 
 Biblioteca para controle de LEDs no Arduino de forma simples, organizada e reutilizável.
 
-Com esta biblioteca, você pode controlar um LED utilizando métodos intuitivos como ligar, desligar, alternar e piscar automaticamente, mantendo o código limpo e fácil de entender.
+Com esta biblioteca, você pode controlar um LED utilizando métodos intuitivos como ligar, desligar, alternar e piscar automaticamente e manualmente,  mantendo o código limpo e fácil de entender.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-- ✅ Ligar o LED  
-- ❌ Desligar o LED  
-- 🔁 Alternar estado  
-- ✨ Piscar automaticamente  
-- 🧠 Estrutura baseada em `update()` 
+-  Ligar o LED  
+-  Desligar o LED  
+-  Alternar estado  
+-  Piscar automaticamente  
+-  Estrutura baseada em `update()` 
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 1. Baixe ou clone este repositório  
 2. Copie a pasta da biblioteca para: Documentos/Arduino/libraries
@@ -24,7 +24,7 @@ Com esta biblioteca, você pode controlar um LED utilizando métodos intuitivos 
 
 ---
 
-## 🔧 Como usar
+##  Como usar
 
 ### Exemplo básico
 
