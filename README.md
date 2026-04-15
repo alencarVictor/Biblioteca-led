@@ -10,9 +10,9 @@ Com esta biblioteca, você pode controlar um LED utilizando métodos intuitivos 
 
 - ✅ Ligar o LED  
 - ❌ Desligar o LED  
-- 🔁 Alternar estado (toggle)  
+- 🔁 Alternar estado  
 - ✨ Piscar automaticamente  
-- 🧠 Estrutura baseada em `update()` (melhor organização)
+- 🧠 Estrutura baseada em `update()` 
 
 ---
 
